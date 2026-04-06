@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?application progid="SMath Studio in the Cloud" version="0.1075.0.9126"?>
+<worksheet xmlns="http://smath.info/schemas/worksheet/1.0">
+  <settings ppi="96">
+    <identity>
+      <id>5197951f-fdcb-47bf-af1c-16c1a98f1a1a</id>
+      <revision>100</revision>
+    </identity>
+    <calculation>
+      <precision>4</precision>
+      <exponentialThreshold>5</exponentialThreshold>
+      <trailingZeros>false</trailingZeros>
+      <significantDigitsMode>false</significantDigitsMode>
+      <mixedNumbers>false</mixedNumbers>
+      <roundingMode>0</roundingMode>
+      <approximateEqualAccuracy>3</approximateEqualAccuracy>
+      <fractions>decimal</fractions>
+    </calculation>
+    <pageModel active="false" viewMode="1" printGrid="false" printAreas="true" simpleEqualsOnly="false" printBackgroundImages="true" hideElementsHighlightings="true">
+      <paper id="0" orientation="Portrait" width="850" height="1100" />
+      <margins left="39" right="39" top="49" bottom="49" />
+      <header alignment="Center" color="#a9a9a9">&amp;[DATE] &amp;[TIME] - &amp;[FILENAME]</header>
+      <footer alignment="Center" color="#a9a9a9">&amp;[PAGENUM] / &amp;[COUNT]</footer>
+      <backgrounds />
+    </pageModel>
+    <dependencies>
+      <assembly name="SMath Core" version="1.73.9126.0" guid="a37cba83-b69c-4c71-9992-55ff666763bd" />
+      <assembly name="MathRegion" version="1.73.9126.0" guid="02f1ab51-215b-466e-a74d-5d8b1cf85e8d" />
+      <assembly name="SpecialFunctions" version="1.73.9126.0" guid="2814e667-4e12-48b1-8d51-194e480eabc5" />
+      <assembly name="TextRegion" version="1.73.9126.0" guid="485d28c5-349a-48b6-93be-12a35a1c1e39" />
+      <assembly name="PlotRegion" version="1.73.9126.0" guid="c451c2b5-798b-4f08-b9ec-b90963d1ddaa" />
+    </dependencies>
+  </settings>
+  <regions type="content">
+    <region left="162" top="0" width="55" height="23" color="#000000" fontSize="10">
+      <text lang="rus" fontFamily="Arial, Courier New, Courier, mono" fontSize="10">
+        <content>
+          <p>ПР 2.6</p>
+        </content>
+      </text>
+    </region>
+    <region left="468" top="0" width="55" height="23" color="#000000" fontSize="10">
+      <text lang="rus" fontFamily="Arial, Courier New, Courier, mono" fontSize="10">
+        <content>
+          <p>ПР 2.6</p>
+        </content>
+      </text>
+    </region>
+    <region left="729" top="0" width="93" height="42" color="#000000" fontSize="10">
+      <text lang="rus" width="93" fontFamily="Arial, Courier New, Courier, mono" fontSize="10">
+        <content>
+          <p style="text-align: center; line-height: 1.15em;">ПР 2.6 Задание №3</p>
+        </content>
+      </text>
+    </region>
+    <region left="1188" top="0" width="68" height="23" color="#000000" fontSize="10">
+      <text lang="rus" fontFamily="Arial, Courier New, Courier, mono" fontSize="10">
+        <content>
+          <p>ГЛАВА 2</p>
+        </content>
+      </text>
+    </region>
+    <region left="144" top="18" width="92" height="23" color="#000000" fontSize="10">
+      <text lang="rus" fontFamily="Arial, Courier New, Courier, mono" fontSize="10">
+        <content>
+          <p>Задание №1</p>
+        </content>
+      </text>
+    </region>
+    <region left="450" top="18" width="92" height="23" color="#000000" fontSize="10">
+      <text lang="rus" width="15" fontFamily="Arial, Courier New, Courier, mono" fontSize="10">
+        <content>
+          <p>Задание №2</p>
+        </content>
+      </text>
+    </region>
+    <region left="1179" top="27" width="92" height="23" color="#000000" fontSize="10">
+      <text lang="rus" fontFamily="Arial, Courier New, Courier, mono" fontSize="10">
+        <content>
+          <p>Задание №5</p>
+        </content>
+      </text>
+    </region>
+    <region left="414" top="45" width="170" height="34" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">x</e>
+          <e type="function" args="1">f2</e>
+          <e type="operand">x</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">3.2</e>
+          <e type="operand">x</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">-</e>
+          <e type="operand">1</e>
+          <e type="operator" args="2">-</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="99" top="54" width="176" height="26" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">x</e>
+          <e type="function" args="1">f1</e>
+          <e type="operand">x</e>
+          <e type="function" args="1">log10</e>
+          <e type="operand">x</e>
+          <e type="function" args="1">cos</e>
+          <e type="operator" args="2">-</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="720" top="54" width="192" height="26" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">x</e>
+          <e type="function" args="1">f3</e>
+          <e type="operand">4</e>
+          <e type="operand">x</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">3</e>
+          <e type="operand">x</e>
+          <e type="function" args="1">ln</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">-</e>
+          <e type="operand">4</e>
+          <e type="operator" args="2">-</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="1152" top="63" width="211" height="37" color="#000000" fontSize="10">
+      <math optimize="2">
+        <input>
+          <e type="operand">x</e>
+          <e type="function" args="1">f5</e>
+          <e type="operand">0.2</e>
+          <e type="operand">x</e>
+          <e type="operator" args="2">*</e>
+          <e type="bracket">(</e>
+          <e type="operand">3</e>
+          <e type="operator" args="2">^</e>
+          <e type="bracket">(</e>
+          <e type="operand">x</e>
+          <e type="function" args="1">cos</e>
+          <e type="operator" args="2">-</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="99" top="81" width="208" height="63" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">x</e>
+          <e type="function" args="1">f1</e>
+          <e type="operand">x</e>
+          <e type="function" args="2">solve</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">1.4184</e>
+          <e type="operand">5.5521</e>
+          <e type="operand">6.8631</e>
+          <e type="operand">3</e>
+          <e type="operand">1</e>
+          <e type="function" args="5">mat</e>
+        </result>
+      </math>
+    </region>
+    <region left="414" top="90" width="220" height="45" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">x</e>
+          <e type="function" args="1">f2</e>
+          <e type="operand">x</e>
+          <e type="function" args="2">solve</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.2868</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">3.4868</e>
+          <e type="operand">2</e>
+          <e type="operand">1</e>
+          <e type="function" args="4">mat</e>
+        </result>
+      </math>
+    </region>
+    <region left="720" top="90" width="208" height="45" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">x</e>
+          <e type="function" args="1">f3</e>
+          <e type="operand">x</e>
+          <e type="function" args="2">solve</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.5456</e>
+          <e type="operand">1</e>
+          <e type="operand">2</e>
+          <e type="operand">1</e>
+          <e type="function" args="4">mat</e>
+        </result>
+      </math>
+    </region>
+    <region left="1152" top="108" width="220" height="63" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">x</e>
+          <e type="function" args="1">f5</e>
+          <e type="operand">x</e>
+          <e type="function" args="2">solve</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">4.1191</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">1.6038</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">1.5415</e>
+          <e type="operand">3</e>
+          <e type="operand">1</e>
+          <e type="function" args="5">mat</e>
+        </result>
+      </math>
+    </region>
+    <region left="99" top="144" width="240" height="158" color="#000000" fontSize="10">
+      <plot type="2d" render="lines" scale_x="1" scale_y="1" scale_z="1" rotate_x="0" rotate_y="0" rotate_z="0" transpose_x="-73" transpose_y="-4" transpose_z="0">
+        <input>
+          <e type="operand">x</e>
+          <e type="function" args="1">f1</e>
+        </input>
+      </plot>
+    </region>
+    <region left="414" top="144" width="240" height="158" color="#000000" fontSize="10">
+      <plot type="2d" render="lines" scale_x="1" scale_y="1" scale_z="1" rotate_x="0" rotate_y="0" rotate_z="0" transpose_x="-23" transpose_y="-10" transpose_z="0">
+        <input>
+          <e type="operand">x</e>
+          <e type="function" args="1">f2</e>
+        </input>
+      </plot>
+    </region>
+    <region left="720" top="144" width="240" height="158" color="#000000" fontSize="10">
+      <plot type="2d" render="lines" scale_x="1" scale_y="1" scale_z="1" rotate_x="0" rotate_y="0" rotate_z="0" transpose_x="-17" transpose_y="-37" transpose_z="0">
+        <input>
+          <e type="operand">x</e>
+          <e type="function" args="1">f3</e>
+        </input>
+      </plot>
+    </region>
+    <region left="1143" top="171" width="240" height="158" color="#000000" fontSize="10">
+      <plot type="2d" render="lines" scale_x="1" scale_y="1" scale_z="1" rotate_x="0" rotate_y="0" rotate_z="0" transpose_x="1" transpose_y="-1" transpose_z="0">
+        <input>
+          <e type="operand">x</e>
+          <e type="function" args="1">f5</e>
+        </input>
+      </plot>
+    </region>
+  </regions>
+</worksheet>
